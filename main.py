@@ -6,5 +6,6 @@ names = names_string.split(", ")
 #Write your code below this line 👇
 
 import random
-print(f"{names[random.randint(0,len(names))]} is going to buy the meal today!")
 
+print(f"Opcion 1 {names[random.randint(0,len(names))]} is going to buy the meal today!")
+print(f"Opcion 2  {random.choice(names)} is going to buy the meal today!")
